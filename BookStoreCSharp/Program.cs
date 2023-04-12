@@ -7,7 +7,7 @@ Console.WriteLine();
 
     Console.Write("informazioni generiche");
 
-Console.WriteLine();
+
 
     
     long isbn = 9780132350884;    
@@ -17,7 +17,13 @@ Console.WriteLine();
     float thicknessBook = 2.79f;
     float widthBook = 23.37f;
 
-Console.Write(" - " + "ISBN" + isbn);
+
+Console.WriteLine();
+
+Console.WriteLine(" - " + "ISBN: " + isbn);
+Console.WriteLine(" - " + "NUMERO DI PAGINE: " +  numberPage);
+Console.WriteLine(" - " + "DIMENSIONI LIBRO: " + lengthBook + " cm X " + thicknessBook + " cm X " +  widthBook + " cm ");
+Console.WriteLine(" - " + "PESO: " + weightbook + " kg ");
 
 
 
